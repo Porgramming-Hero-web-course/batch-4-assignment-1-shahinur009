@@ -9,9 +9,12 @@ Union type basically we define because when we need to or options. Suppose I hav
  '|'  
 
  <!-- Example -->
+ ```tsx
  type car = string | number
 
- there if input match one of them then return true.
+ there if input match one of them then execute the function.
+```
+
 
  <!-- Significance -->
  1. Flexible Using: Union type return if match any of conditions that declare our functions. It is benefited because when meet any of type checking. work will be done any problem.
