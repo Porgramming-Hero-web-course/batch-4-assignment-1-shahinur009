@@ -27,12 +27,15 @@ Union type basically we define because when we need to or options. Suppose I hav
   one- '&'
 
 <!-- Example -->
+
+```tsx
 type Car ={car:string};
 type Model= {model:number};
 
 type CarInfo = Car & Model;
 
 If there car and model match as per declare type then we get result other wise return error.
+```
 
 <!-- Significance -->
 1. Type check: if all requirement fill then return true other wise return false.
